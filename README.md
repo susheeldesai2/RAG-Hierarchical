@@ -11,7 +11,7 @@ An optimized **Retrieval-Augmented Generation (RAG) pipeline** that enhances ret
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```bash
 📦 RAG-PC
 ├── 📄 main.py             # Core script for PDF processing, chunking, embedding, and retrieval
@@ -19,7 +19,7 @@ An optimized **Retrieval-Augmented Generation (RAG) pipeline** that enhances ret
 ├── 📄 .env                # Environment variables (Pinecone API Key, etc.)
 ├── 📄 README.md           # Project documentation
 ```
-## 📌 Installation
+##  Installation
 pip install -r requirements.txt
 
 ## Features
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 - **Scalable & Flexible:** Supports **multiple PDFs**, **different LLMs**, and **fine-tuning chunking strategies**.
 
 
-## ⚙️ How It Works
+##  How It Works
 ---
 
 ### 1️⃣ Extract & Process Text from PDFs

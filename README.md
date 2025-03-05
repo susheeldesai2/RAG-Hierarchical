@@ -19,8 +19,24 @@ An optimized **Retrieval-Augmented Generation (RAG) pipeline** that enhances ret
 ├── 📄 .env                # Environment variables (Pinecone API Key, etc.)
 ├── 📄 README.md           # Project documentation
 ```
+
+## Libraries Used
+```bash
+| Library                  | Purpose |
+|--------------------------|---------|
+| `PyPDF2`                 | Extracts text from PDFs |
+| `langchain`              | Handles text chunking and processing |
+| `pinecone-client`        | Stores and retrieves vector embeddings |
+| `langchain-groq`         | Interfaces with **ChatGroq (Llama 3 - 70B)** |
+| `sentence-transformers`  | Embedding model for semantic search |
+| `python-dotenv`          | Loads environment variables |
+```
+
+
 ##  Installation
+```bash
 pip install -r requirements.txt
+ ```
 
 ## Features
 ---
